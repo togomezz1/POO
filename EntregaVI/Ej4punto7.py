@@ -61,7 +61,7 @@ class gato(felino):
         return "Doméstico"
 
 def main():
-    animales = [None] * 4 # Forma más "Pythonica" de iniciar una lista de tamaño fijo
+    animales = [None] * 4 
     animales[0] = gato()
     animales[1] = perro()
     animales[2] = lobos()
